@@ -1,0 +1,625 @@
+{
+	"info": {
+		"_postman_id": "585b6729-1e65-4347-ba72-d6fdfbe19625",
+		"name": "StarWarsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28713340",
+		"_collection_link": "https://red-star-313023.postman.co/workspace/Projects~c55b7f34-0a56-4c0c-8cf5-fdea66d06bc2/collection/28713340-585b6729-1e65-4347-ba72-d6fdfbe19625?action=share&source=collection_link&creator=28713340"
+	},
+	"item": [
+		{
+			"name": "Get requests",
+			"item": [
+				{
+					"name": "StarWarsWorld",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All people",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/people/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All planets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/planets",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Films",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/films",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Species",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/species",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Vehicles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Starships",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/starships",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Unsuccessful requests",
+			"item": [
+				{
+					"name": "Post requests",
+					"item": [
+						{
+							"name": "Create people",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/people/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"people",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create planets",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/planets",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"planets"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create films",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/films",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"films"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create species",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/species",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"species"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create vehicles",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/vehicles/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"vehicles",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create starships",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/starships/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"starships",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Patch requests",
+					"item": [
+						{
+							"name": "Update people",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/people/1",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"people",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update planets",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/planets/1",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"planets",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update films",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/films/1",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"films",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update  species",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/species/1",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"species",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update  vehicles",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/vehicles/1",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"vehicles",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update  starships",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/starships/1",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"starships",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Delete requests",
+					"item": [
+						{
+							"name": "Delete people",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/people/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"people",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete planets",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/planets/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"planets",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete films",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/films/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"films",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete  species",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/species/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"species",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete vehicles",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/vehicles/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"vehicles",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete  Starships",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}"
+								},
+								"url": {
+									"raw": "https://swapi.dev/api/starships/",
+									"protocol": "https",
+									"host": [
+										"swapi",
+										"dev"
+									],
+									"path": [
+										"api",
+										"starships",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
